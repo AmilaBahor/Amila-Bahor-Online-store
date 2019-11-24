@@ -1,0 +1,162 @@
+.navigationbar a {
+    float: left;
+    text-align: center;
+    display: inline;
+    color: black;
+    padding: 15px 17px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.navigationbar .login {
+    float: right;
+}
+
+.navigationbar input[type=text] {
+    padding: 7px;
+    margin-top: 10px;
+    font-size: 18px;
+    border: none;
+    width: 130px; 
+}
+
+.navigationbar .login button {
+    float: right;
+    padding: 7px;
+    margin-top: 10px;
+    margin-right: 18px;
+    background:pink ;
+    font-size: 18px;
+    border: 2pt;
+    border-color: black;
+    cursor: default;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.navigationbar .login button:hover {
+    background: salmon;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.homephoto, .menphoto, .womenphoto, .kidsphoto, .accessoriesphoto, .contactphoto {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.homephoto {
+    background-image: url("homephoto.jpg");
+    min-height: 100%;
+}
+.menphoto {
+    background-image: url("menphoto.jpg");
+    min-height: 100%;
+}
+.womenphoto {
+    background-image: url("womenphoto.jpg");
+    min-height: 100%;
+}
+.kidsphoto {
+    background-image: url("kidsphoto.jpg");
+    min-height: 100%;
+}
+.accessoriesphoto {
+    background-image: url("accessoriesphoto.jpg");
+    min-height: 100%;
+}
+.contactphoto {
+    background-image: url("contactphoto.jpg");
+    min-height: 100%;
+}
+
+
+
+.text {
+    background-color: rgba(248, 113, 138, 0.5);
+    color: black;
+    font-size: 38px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    border: 2px solid black;
+    position: absolute;
+    width: 700px;
+    padding: 25px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.home {
+    position: relative;
+    left: 50%;
+    top: 200px;
+    max-width: 600px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 60px;
+    word-spacing: 4px;
+    margin: 0;
+    padding: 20px;
+    font-variant: normal;
+    text-transform: uppercase;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 13px;
+    border: 2px solid black;
+    margin-top: 7px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: blue;
+    color: white;
+    padding: 14px 22px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+}
+
+.contact {
+    border-radius: 6px;
+    padding: 15px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: hotpink;
+  color: white;
+  text-align: center;
+}
