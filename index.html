@@ -26,86 +26,152 @@ Purpose: The purpose of this project is to gain a better understanding of basic 
             </form>
      </div>
  </div>
+ <script src="myScript.js"></script>
 </head>
 
 <body >
+      <button class="open-button" onclick="openForm()">Ask us anything</button>
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Salam alaikum :) </h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send message</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close chat box</button>
+  </form>
+</div>
         <div id="home" class="homephoto">
         <div class="text">Welcome to Haya online clothing store!</div>
     </div>
     </div>
 
-<div id="men" class="menphoto" style="position:relative; color:white; background-color: olivedrab;">
+<div id="men" class="menphoto" >
     <h1 style= "color: black;">Men's Wear</h1>
     <div class="row">
   <div class="column">
-    <img src="men1.jpg" alt="Blazer" style="width:100%">
+    <figure>
+  <img src="men1.jpg" alt="Blazer" style="width:100%">
+  <figcaption class="caption">Men blazer | Price: 20$ </figcaption>
+</figure>
   </div>
   <div class="column">
-    <img src="men2.jpg" alt="Blazer" style="width:100%">
+    <figure>
+  <img src="men2.jpg" alt="Blazer" style="width:100%">
+  <figcaption class="caption">Men blazer | Price: 25$ </figcaption>
+</figure>
   </div>
   <div class="column">
-    <img src="men3.jpg" alt="Denim jacket" style="width:100%">
+   <figure>
+  <img src="men3.jpg" alt="Denim jacket" style="width:100%">
+  <figcaption class="caption">Denim jacket | Price: 65$ </figcaption>
+</figure>
   </div>
-</div>
+</div> 
 <div class="row">
   <div class="column">
-    <img src="men4.jpg" alt="Blazer" style="width:100%">
+   <figure>
+  <img src="men4.jpg" alt="Blazer" style="width:100%">
+  <figcaption class="caption">Men blazer | Price: 34$ </figcaption>
+</figure>
   </div>
   <div class="column">
-    <img src="men5.jpg" alt="Tunic" style="width:100%">
+    <figure>
+  <img src="men5.jpg" alt="Tunic" style="width:100%">
+  <figcaption class="caption">Tunic | Price: 22$ </figcaption>
+</figure>
   </div>
   <div class="column">
-    <img src="men6.jpg" alt="Jumper" style="width:100%">
+    <figure>
+  <img src="men6.jpg" alt="Jumper" style="width:100%">
+  <figcaption class="caption">Jumper | Price: 53$ </figcaption>
+</figure>
   </div>
 </div>
    </div>
 <div id="women" class="womenphoto">
         <h1 style= "color: black;">Women's Wear</h1>
- <div class="row">
+    <div class="row">
   <div class="column">
-    <img src="women1.png" alt="Dress" style="width:100%">
+    <figure>
+  <img src="women1.png" alt="Dress" style="width:100%">
+  <figcaption class="caption">Dress | Price: 80$ </figcaption>
+</figure>
   </div>
   <div class="column">
-    <img src="women2.png" alt="Dress" style="width:100%">
+    <figure>
+  <img src="women2.png" alt="Dress" style="width:100%">
+  <figcaption class="caption">Dress | Price: 76$ </figcaption>
+</figure>
   </div>
   <div class="column">
-    <img src="women3.jpg" alt="Abaya" style="width:100%">
+   <figure>
+  <img src="women3.jpg" alt="Abaya" style="width:100%">
+  <figcaption class="caption">Abaya | Price: 65$ </figcaption>
+</figure>
   </div>
-</div>
-<div class="row">
+</div> 
+    <div class="row">
   <div class="column">
-    <img src="women4.jpg" alt="Jilbab" style="width:100%">
+    <figure>
+  <img src="women4.jpg" alt="Jilbab" style="width:100%">
+  <figcaption class="caption">Jilbab | Price: 90$ </figcaption>
+</figure>
   </div>
   <div class="column">
-    <img src="women5.jpg" alt="Abaya" style="width:100%">
+    <figure>
+  <img src="women5.jpg" alt="Abaya" style="width:100%">
+  <figcaption class="caption">Jilbab | Price: 55$ </figcaption>
+</figure>
   </div>
   <div class="column">
-    <img src="women6.jpg" alt="Abaya" style="width:100%">
+   <figure>
+  <img src="women6.jpg" alt="Abaya" style="width:100%">
+  <figcaption class="caption">Jilbab | Price: 45$ </figcaption>
+</figure>
   </div>
-</div>
-    </div>
+</div>     </div>
 <div id="kids" class="kidsphoto">
         <h1 style= "color: black;">Kid's Wear</h1>
  <div class="row">
   <div class="column">
-    <img src="kid1.jpg" alt="Dress" style="width:100%">
+   <figure>
+  <img src="kid1.jpg" alt="Dress" style="width:100%">
+  <figcaption class="caption">Kid dress | Price: 25$ </figcaption>
+</figure>
   </div>
   <div class="column">
-    <img src="kid2.jpg" alt="Dress" style="width:100%">
+   <figure>
+  <img src="kid2.jpg" alt="Dress" style="width:100%">
+  <figcaption class="caption">Kid dress | Price: 24$ </figcaption>
+</figure>
   </div>
   <div class="column">
-    <img src="kid3.jpg" alt="Dress" style="width:100%">
+   <figure>
+  <img src="kid3.jpg" alt="Dress" style="width:100%">
+  <figcaption class="caption">Kid dress | Price: 35$ </figcaption>
+</figure>
   </div>
 </div>
 <div class="row">
   <div class="column">
-    <img src="kid4.jpg" alt="T-shirt" style="width:100%">
+   <figure>
+  <img src="kid4.jpg" alt="T-shirt" style="width:100%">
+  <figcaption class="caption">T-shirt | Price: 20$ </figcaption>
+</figure>
   </div>
   <div class="column">
-    <img src="kid5.jpg" alt="T-shirt" style="width:100%">
+   <figure>
+  <img src="kid5.jpg" alt="T-shirt" style="width:100%">
+  <figcaption class="caption">T-shirt | Price: 15$ </figcaption>
+</figure>
   </div>
   <div class="column">
-    <img src="kid6.jpg" alt="T-shirt" style="width:100%">
+   <figure>
+  <img src="kid6.jpg" alt="T-shirt" style="width:100%">
+  <figcaption class="caption">T-shirt | Price: 17$ </figcaption>
+</figure>
   </div>
 </div>
     </div>
@@ -113,24 +179,42 @@ Purpose: The purpose of this project is to gain a better understanding of basic 
         <h1 style= "color: black;">Accessories</h1>
 <div class="row">
   <div class="column">
-    <img src="accessories1.jpg" alt="Scarf" style="width:100%">
+   <figure>
+  <img src="accessories1.jpg" alt="Scarf" style="width:100%">
+  <figcaption class="caption">Scarf | Price: 15$ </figcaption>
+</figure>
   </div>
   <div class="column">
-    <img src="accessories2.jpg" alt="Scarf" style="width:100%">
+   <figure>
+  <img src="accessories2.jpg" alt="Scarf" style="width:100%">
+  <figcaption class="caption">Scarf | Price: 9$ </figcaption>
+</figure>
   </div>
   <div class="column">
-    <img src="accessories3.jpg" alt="Scarf" style="width:100%">
+   <figure>
+  <img src="accessories3.jpg" alt="Scarf" style="width:100%">
+  <figcaption class="caption">Scarf | Price: 12$ </figcaption>
+</figure>
   </div>
 </div>
 <div class="row">
   <div class="column">
-    <img src="accessories4.jpg" alt="Ruksack" style="width:100%">
+   <figure>
+  <img src="accessories4.jpg" alt="Ruksack" style="width:100%">
+  <figcaption class="caption">Ruksack | Price: 55$ </figcaption>
+</figure>
   </div>
   <div class="column">
-    <img src="accessories5.jpg" alt="Bag" style="width:100%">
+   <figure>
+  <img src="accessories5.jpg" alt="Bag" style="width:100%">
+  <figcaption class="caption">Bag | Price: 45$ </figcaption>
+</figure>
   </div>
   <div class="column">
-    <img src="accessories6.jpg" alt="Bag" style="width:100%">
+   <figure>
+  <img src="accessories6.jpg" alt="Bag" style="width:100%">
+  <figcaption class="caption">Bag | Price: 38$ </figcaption>
+</figure>
   </div>
 </div>
     </div>
